@@ -11,7 +11,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-about">
     <h1><?= Html::encode($this->title) ?></h1>
     <p>
-        <?php $form = ActiveForm::begin(['action' => 'index.php?r=payment-processor%2Fprocess']); ?>
+        <?php $form = ActiveForm::begin(['action' => 'index.php?r=payment-processor%2Fprocess']); //TODO Set the url path according to your path format ?>
         <script
             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
             data-key="pk_test_95FLAm6kCNHBSvGEWMrJIhuQ"
